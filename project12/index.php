@@ -7,18 +7,19 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
 </head>
+
 <body>
-<?php
-$navItems = [
-    "GIỚI THIỆU",
-    "abcabchahas"
-];
-echo '<nav><ul>';
-foreach ($navItems as $item) {
-    echo "<li>$item</li>";
-}
-echo '</ul></nav>';
-?>
+    <?php
+    $navItems = [
+        "GIỚI THIỆU",
+        "hihihi"
+    ];
+    echo '<nav><ul>';
+    foreach ($navItems as $item) {
+        echo "<li>$item</li>";
+    }
+    echo '</ul></nav>';
+    ?>
 </body>
 
 </html>
