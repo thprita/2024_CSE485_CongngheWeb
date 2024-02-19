@@ -11,12 +11,6 @@
 <?php
 $navItems = [
     "GIỚI THIỆU",
-    "TIN TỨC & THÔNG BÁO",
-    "TUYỂN SINH",
-    "ĐÀO TẠO",
-    "NGHIÊN CỨU",
-    "ĐỐI NGOẠI",
-    "VĂN BẢN",
 ];
 echo '<nav><ul>';
 foreach ($navItems as $item) {
