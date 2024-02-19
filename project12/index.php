@@ -11,6 +11,7 @@
 <?php
 $navItems = [
     "GIỚI THIỆU",
+    "abcabchahas"
 ];
 echo '<nav><ul>';
 foreach ($navItems as $item) {
