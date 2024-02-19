@@ -18,8 +18,6 @@
         "NGHIÊN CỨU",
         "ĐỐI NGOẠI",
         "VĂN BẢN",
-        "SINH VIÊN",
-        "LIÊN HỆ"
     ];
     echo '<nav><ul>';
     foreach ($navItems as $item) {
