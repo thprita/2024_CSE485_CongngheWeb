@@ -5,52 +5,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>Project12</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <style>
-        html,
-        body {
-            padding: 0;
-            margin: 0;
-        }
-
-        ul {
-            display: flex;
-            background-color: blue;
-            padding: 0;
-
-        }
-
-        ul li {
-            list-style: none;
-            border-left: 2px solid black;
-            color: #fff;
-            margin: 10px;
-            padding: 5px;
-            text-align: center;
-            position: relative;
-        }
-
-        li:first-child {
-            border: none;
-        }
-
-        .menu-con {
-            display: block;
-            background-color: red;
-            position: absolute;
-            top: 35px;
-            width: 100%;
-        }
-
-        .menu-con li {
-            font-size: 15px;
-        }
-
-        ul li:hover .menu-con {
-            display: block;
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
@@ -66,17 +23,14 @@
         "SINH VIÊN",
         "LIÊN HỆ"
     ];
-    $NavItems = [
-        "GIỚI THIỆU",
-    ];
-    echo '<nav><ul>';
+    echo '<nav><ul class="menu">';
     echo "<li><i class='fa-solid fa-house'></i></li>";
     foreach ($navItems as $item) {
         echo "<li>";
         echo "$item";
         echo '<nav><ul class="menu-con">';
-        foreach ($NavItems as $item1) {
-            echo "<li>$item1</li>";
+        foreach ($navItems as $item) {
+            echo "<li>$item</li>";
         }
         echo '</ul></nav>';
         echo "</li>";
