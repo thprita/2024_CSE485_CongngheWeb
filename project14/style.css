@@ -1,0 +1,104 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.form {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.basic-form,
+.contact-form,
+.optional-form {
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 18px;
+}
+
+hr {
+    margin-bottom: 10px;
+}
+
+.item {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+input[type="text"],
+select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+.check {
+    margin-top: 5px;
+}
+
+.submit {
+    text-align: center;
+}
+
+.submit-left,
+.submit-right {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.submit-left div,
+.submit-right div {
+    display: inline-block;
+    padding: 8px 20px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.submit-right div {
+    background-color: #dc3545;
+    margin-left: 10px;
+}
+
+.submit-left div:hover,
+.submit-right div:hover {
+    background-color: #0056b3;
+}
+
+.submit>div {
+    margin-top: 10px;
+    font-style: italic;
+    color: #999;
+}
+
+.shift {
+    display: flex;
+}
+
+.active {
+    display: inline;
+    margin-right: 57px;
+}
