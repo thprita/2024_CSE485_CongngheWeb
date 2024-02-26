@@ -1,1 +1,1 @@
-![alt][screenshots/project12.png]
+![alt](screenshots/project12.png)
