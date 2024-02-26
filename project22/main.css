@@ -1,0 +1,85 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-size: 18px;
+}
+
+.container {
+    margin: 30px auto;
+    background: aqua;
+    width: 500px;
+    padding: 30px 20px;
+    border-radius: 15px;
+    border: 1px solid rgb(14, 135, 135);
+}
+
+h2 {
+    color: rgb(80, 32, 224);
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.account {
+    display: flex;
+}
+
+.left a {
+    color: black;
+    text-decoration: none;
+    line-height: 40px;
+}
+
+a:first-child {
+    color: red;
+}
+
+.form {
+    margin-left: 140px;
+}
+
+.form input {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.submit {
+    float: right;
+}
+
+button {
+    background: rgb(58, 164, 5);
+    padding: 5px 10px;
+    border-radius: 10px;
+    border: 1px solid rgb(58, 164, 5);
+}
+
+.img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background: rgb(16, 214, 105);
+    margin: 10px auto;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.changeavatar {
+    background: rgb(132, 9, 9);
+    padding: 5px 10px;
+    color: #fff;
+    margin-left: 40px;
+}
+
+
+p:first-child {
+    margin-top: 10px;
+}
+
+a:hover {
+    color: blue;
+}
